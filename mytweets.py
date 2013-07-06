@@ -11,14 +11,14 @@ REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="
 ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 
-CONSUMER_KEY = "6z9XxZTiNdf9n4XY3cXkkA"
-CONSUMER_SECRET = "6DMT8CsEuwmLQKcA0ffUjETCar4KQSR21paMqhkh0Q"
+CONSUMER_KEY = "YOUR_CONSUMER_KEY"
+CONSUMER_SECRET = "YOUR_CONSUMER_SECRET"
 
-OAUTH_TOKEN = "8321102-edRm5ZHRqCISDa11hya5dCYXsfvCHLGdHqZXcVQjU"
-OAUTH_TOKEN_SECRET = "WRoQujEAlWUghozKMCtfw0BhsbSWUnx0uAj35QuqZM"
+OAUTH_TOKEN = "YOUR_OAUTH_TOKEN"
+OAUTH_TOKEN_SECRET = "YOUR_OATH_SECRET"
 
-SCREEN_NAME = 'gopleinair'
-TWEET_COUNT = '1'
+SCREEN_NAME = 'YOUR_SCREENNAME'
+TWEET_COUNT = '1'  # Number of tweets you'd like to retrieve
 
 def setup_oauth():
     """Authorize your app via identifier."""
