@@ -7,6 +7,7 @@ Simple Python script to access the Twitter API (v1.1) to collect a list of recen
 Dependencies
 -------------
 Python: requests, requests-oauthlib
+
 Javascript: jQuery
 
 Installation
