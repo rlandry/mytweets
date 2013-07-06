@@ -1,7 +1,7 @@
 mytweets
 ========
 
-Simple Python script to access the Twitter API (v1.1) to collect a list of recent Tweets from a timeline.  Great addition for Django projects.  Uses simple jQuery ajax call for display. 
+Simple Python script to access the Twitter API (v1.1) to collect a list of recent Tweets from a timeline.  Great addition for Django projects.  Uses a simple jQuery ajax call for display. 
 
 Based on blog posts by [Thomas Sileo](http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/) and [aviras](http://aviras.wordpress.com/2013/06/17/get-recent-tweets-from-1-1-api-django-jquery/).
 
