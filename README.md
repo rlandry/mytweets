@@ -19,9 +19,21 @@ Installation
 
 2 - Register your application with Twitter here: https://dev.twitter.com/apps/new
 
-3 - Enter the values for CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET, SCREEN_NAME and TWEET_COUNT (You could move these values to your settings.py and import them)
+3 - Enter the values for:
 
-4 - Add a URL for the json file that gets generated, in your urls.py:  **(r'^get_recent_tweets', 'mytweets.get_recent_tweets'),**
+```Python
+CONSUMER_KEY
+CONSUMER_SECRET
+OAUTH_TOKEN
+OAUTH_TOKEN_SECRET
+SCREEN_NAME
+TWEET_COUNT  # (You could move these values to your settings.py and import them)
+```
+4 - Add a URL for the json file that gets generated, in your urls.py:  
+
+```Python
+**(r'^get_recent_tweets', 'mytweets.get_recent_tweets'),**
+```
 
 5 - Add a jQuery ajax call ( **get_tweets.js** ) to fetch the data.
 
